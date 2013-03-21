@@ -11,12 +11,12 @@ Getting started
 define("ROOT_URL", "localhost/tumblelog/");
 </code>
 
-- Create a posts.txt. It needs to start with the following lines. Replace anything inside the <>'s.
+- Create a posts.txt. It needs to start with the following lines. 
 
-Site Name <My Tumblelog>
-Author <Ankur Taxali>
+Site Name My Tumbleong
+Author Ankur Taxali
 
-To write a post, edit the same file using "\####" as post separators. Once you get the hang of it, it's really easy to write posts!
+To write a post, edit the same file using "\####" as post separators.
 
 <code>
 \####
@@ -31,7 +31,16 @@ My second post
 This is some more content
 </code>
 
-You may also choose to edit the site's template.
+
+WordPress-style Templates
+--------------------------
+
+You may also choose to edit the site's template to better suit your needs. We adhere to a WordPress-style API. 
+
+<code>
+<?php get_bloginfo(); ?/>
+</code>
+
 
 Releases
 ---------

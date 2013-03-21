@@ -13,10 +13,8 @@ define("ROOT_URL", "localhost/tumblelog/");
 
 - Create a posts.txt. It needs to start with the following lines. Replace anything inside the <>'s.
 
-<code>
-Site Name My Tumblelog
-Author Ankur Taxali
-</code>
+Site Name <My Tumblelog>
+Author <Ankur Taxali>
 
 To write a post, edit the same file using "\####" as post separators. Once you get the hang of it, it's really easy to write posts!
 

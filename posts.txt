@@ -1,0 +1,12 @@
+Site Name My Tumblelog
+Author Ankur Taxali
+####
+I invented Hash4!
+3/18/13
+Hash4 is a blogging system anyone can use. 
+Right now it is configured for very simple writing. 
+Line breaks are supported!
+####
+My second post
+3/20/13
+This is some more content

@@ -14,7 +14,6 @@ define("SITE_TAG", "And did I say you look amazing?");
 <head>
 	<title><?php get_bloginfo('title'); ?> by <?php get_bloginfo('author'); ?></title>
 	<style>
-	
 		body { 
 			font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 		} 
@@ -161,7 +160,7 @@ function get_posts($number_of_posts = 10)
 			} 
 		
 		} else { 
-			return array_slice($data_arr, 0, $number_of_posts); 
+			return array_reverse(array_slice($data_arr, 0, $number_of_posts)); 
 		}
 	}
 } 

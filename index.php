@@ -7,7 +7,7 @@ ini_set('display_errors', '1');
 // http://opensource.org/licenses/MIT
 // ==========================================
 
-define("ROOT_URL", "localhost/tumblelog/");
+define("ROOT_URL", "localhost/hash4/");
 define("SITE_TAG", "And did I say you look amazing?"); 
 ?>
 <html>

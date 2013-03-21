@@ -1,4 +1,4 @@
-Site Name My Tumblelog
+Site Name My Hash4 Blog
 Author Ankur Taxali
 ####
 I invented Hash4!
